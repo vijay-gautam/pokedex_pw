@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Yatra+One|Yeon+Sung&display=swap');
+
+/* font-family: 'Yeon Sung', cursive;
+font-family: 'Yatra One', cursive; */
+.pokeimg {
+	max-width: 96px;
+	max-height: 96px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: 'Pokemon';
+	src: URL('./components/layout/Pokemon Solid.ttf') format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+	/* font-family: 'Pokemon', sans-serif; */
+	background-color: #fcde67;
+	color: #fff;
+	font-family: 'Yeon Sung', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav {
+	background-color: #8f7d06;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+	color: #030e12;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+	color: #B3A125;
+}
+
+a,
+.card-title,
+h5,
+th {
+	font-family: 'Yatra One', cursive;
+
+}
+
+a,
+h5 {
+	font-size: 1.75rem;
+}
+
+.card,
+.card-group {
+	background-color: #5bccf6;
+	color: #fff;
+}
+
+.poke-desc {
+	font-size: 1.5rem;
+}
+
+td,
+th {
+	color: #fff;
+}
+
+
+.navbar-brand {
+	letter-spacing: 0.2rem;
+}
+
+.poke-font {
+	font-family: 'Pokemon', sans-serif;
+}
+
+.type-normal {
+	background-color: grey;
+}
+
+.type-poison {
+	background-color: darkmagenta;
+}
+
+.type-ground {
+	background-color: brown;
+}
+
+.type-rock {
+	background-color: burlywood;
+}
+
+.type-bug {
+	background-color: greenyellow;
+}
+
+.type-ghost {
+	background-color: blueviolet;
+}
+
+.type-steel {
+	background-color: silver;
+}
+
+.type-dragon {
+	background-color: midnightblue;
+}
+
+.type-dark {
+	background-color: darkslategrey;
+}
+
+.type-flying {
+	background-color: lightseagreen;
+}
+
+.type-fire {
+	background-color: orangered;
+}
+
+.type-psychic {
+	background-color: palevioletred;
+}
+
+.type-ice {
+	background-color: lightblue;
+}
+
+.type-none {
+	background-color: black;
+}
+
+.type-fighting {
+	background-color: red;
+}
+
+.type-water {
+	background-color: darkblue;
+}
+
+.type-grass {
+	background-color: green;
+}
+
+.type-electric {
+	background-color: yellow;
+}
+
+.type-fairy {
+	background-color: pink;
+}
+
+.stat-speed {
+	background-color: orchid;
+}
+
+.stat-hp {
+	background-color: orangered;
+}
+
+.stat-attack {
+	background-color: teal;
+}
+
+.stat-special-attack {
+	background-color: goldenrod;
+}
+
+.stat-special-defense {
+	background-color: blue;
+}
+
+.stat-defense {
+	background-color: green;
 }
