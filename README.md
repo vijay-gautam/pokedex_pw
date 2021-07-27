@@ -1,6 +1,8 @@
 <div align="center">
-        <h1>POKEDX</h1>
+        <h1>POKEDX</h1><br/>
+        <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" />
         <h5>A website pokemon related. 
+        <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" />
     </h5>
     <p align="center">:camera_flash: A preview</p>
     <img width= "500px" src='https://github.com/vijay-gautam/pokedex_pw/blob/main/web_ss.png?raw=true' alt='Website Image'/>
